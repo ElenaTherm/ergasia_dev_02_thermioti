@@ -1,0 +1,23 @@
+.test{
+  border: 1px solid red;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+section.hero {
+  background: url(../img/header_photo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+section.hero::before {
+  content: " ";
+  width: 100%;
+  height: 80%;
+  background: #000;
+  position: absolute;
+  opacity: .24;
+}
