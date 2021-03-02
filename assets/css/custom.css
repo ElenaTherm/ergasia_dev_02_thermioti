@@ -2,6 +2,24 @@
   border: 1px solid red;
 }
 
+body {
+  font-family: 'Nunito Regular';
+}
+
+section.hero h1 {
+  font-family: 'Nunito ExtraBold';
+  color: #fff;
+  font-size: 5rem;
+  letter-spacing: .1rem;
+}
+
+section.hero p {
+  font-family: 'Nunito Regular';
+  color: #fff;
+  font-size: 1.4rem;
+  /*letter-spacing: .1rem; */
+}
+
 .bg-black {
   background-color: #000;
 }
