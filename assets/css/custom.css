@@ -10,21 +10,38 @@ body {
   height: 40% !important;
 }
 
+.pl-6 {
+  padding-left: 5rem;
+}
+
 h3 {
   font-family: 'Nunito Bold';
   font-size: 2.425rem;
   letter-spacing: .02rem;
+  margin-bottom: 0.32rem;
 }
 
 span {
   font-size: 1.3125rem;
   letter-spacing: .08rem;
+  padding-bottom: .8rem;
 }
 
 p {
   font-family: 'Nunito Light';
   font-size: 1.3125rem;
   letter-spacing: .04rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,1);
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.5);
 }
 
 section.hero h1 {
@@ -77,4 +94,18 @@ section.about .image_wrapper {
 
 section.about .image_wrapper img {
   padding: 1rem;
+}
+
+section.services {
+  background: #ebebeb;
+  height: 100vh;
+}
+
+section.services hr {
+  width: 5rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+section.services .row:first-child {
+  padding: 5rem 0 5rem 0;
 }
