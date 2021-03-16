@@ -60,6 +60,20 @@ section.hero p {
 
 .bg-black {
   background-color: #000;
+  color: #fff;
+}
+
+header a.navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .navbar-link {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+header li.nav-item {
+  padding: 2rem;
 }
 
 section.hero {
@@ -108,4 +122,14 @@ section.services hr {
 
 section.services .row:first-child {
   padding: 5rem 0 5rem 0;
+}
+
+footer {
+  background: #000;
+}
+
+footer .footer_logo {
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Nunito Light';
 }
